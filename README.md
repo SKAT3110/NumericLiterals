@@ -10,6 +10,7 @@ Colin Mcgough - aziac
 ## Task Division
 Brenden Johnson - NFA & DFA Diagrams, Decimal Integer, Floating Point <br>
 Colin McGough - Octal Integer Class <br>
+Kevin Wenas - Hexadecimal Integer Class <br>
 
 
 ## Decimal Integer

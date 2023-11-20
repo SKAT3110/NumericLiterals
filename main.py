@@ -1,6 +1,6 @@
 from DecIntDFA import DecIntDFA
 from Octinteger import Octinteger
-# from HexIntDFA import HexIntDFA
+from HexInt import Hexint
 from FloatingPointDFA import FloatingPointDFA as FPDFA
 
 def main():
@@ -8,18 +8,18 @@ def main():
     str = input(">>")
     decDFA = DecIntDFA()
     octDFA = Octinteger()
-    # hexDFA = HexIntDFA()
+    hexDFA = Hexint()
     fpDFA = FPDFA()
     decAccepts = decDFA.accepts(str)
     octAccepts = octDFA.accepts(str)
-    # hexAccepts = hexDFA.accepts(str)
+    hexAccepts = hexDFA.accepts(str)
     floatingAccepts = fpDFA.accepts(str)
     if(decAccepts):
         print("Decimal Integer Accepted")
     elif(octAccepts):
         print("Octal Integer Accepted")
-    # elif(hexAccepts):
-    #     print("Hexadecimal Integer Accepted")
+    elif(hexAccepts):
+        print("Hexadecimal Integer Accepted")
     elif(floatingAccepts):
         print("Floating Point Accepted")
     else:

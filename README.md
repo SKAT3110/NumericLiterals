@@ -3,12 +3,12 @@ Program utilizing deterministic finite automata to recognize numeric literals ac
 
 ## Contributors 
 ### Group - Smurf Kat
-Brenden Johnson - BVOLT <br>
+Brenden Johnson - BVolt <br>
 Kevin Wenas - ssmckevin <br>
 Colin Mcgough - aziac
 
 ## Task Division
-Brenden Johnson - NFA & DFA Diagrams, Decimal Integer, Floating Point <br>
+Brenden Johnson - NFA & DFA Diagrams, Decimal Integer Class, Floating Point Class <br>
 Colin McGough - Octal Integer Class <br>
 Kevin Wenas - Hexadecimal Integer Class <br>
 

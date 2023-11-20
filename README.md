@@ -8,7 +8,7 @@ Kevin Wenas - ssmckevin <br>
 Colin Mcgough - aziac
 
 ## Task Division
-Brenden Johnson - NFA & DFA Diagrams, Decimal Integer Class, Floating Point Class <br>
+Brenden Johnson - NFA Diagrams, Decimal Integer Class, Floating Point Class <br>
 Colin McGough - Octal Integer Class <br>
 Kevin Wenas - Hexadecimal Integer Class <br>
 
